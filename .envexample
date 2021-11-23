@@ -1,0 +1,5 @@
+DB_HOST= host(probably localhost)
+DB_PORT= database port
+DB_USERNAME= database username
+DB_PASSWORD= database password
+DB_DATABASE= database to use (tasks db or whatever)

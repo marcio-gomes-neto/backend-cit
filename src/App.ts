@@ -1,10 +1,11 @@
 import express from "express";
 import setupMiddlewares from "./config/middlewares";
 import router from "./config/router";
+import dotenv from 'dotenv'
 
 const app = express();
-const defaultRoute = express.Router()
 
+dotenv.config()
 setupMiddlewares(app)
 
 app.use('/api', router)
