@@ -76,7 +76,7 @@ export default class TaskUseCase{
             if (_input.id != null) throw new Error('No need to send ID')
             
             if (_input.name.length < 3 || typeof _input.name != "string") throw new Error('Invalid Name')
-            if (_input.desc.length < 3 || typeof _input.name != "string") throw new Error('Invalid Description')
+            //if (_input.desc.length < 3 || typeof _input.name != "string") throw new Error('Invalid Description')
 
             const taskData:ITasks = {
                 name: _input.name,
